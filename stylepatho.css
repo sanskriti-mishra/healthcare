@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ header{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 35px;
+     background-color: rgba(42, 42, 124, 0.356);
+     color: white;
+ }
+ 
+ .logo{
+     font-size: 35px;
+     font-weight: bold;
+     color: black;
+ }
+ nav ul{
+     list-style: none;
+     display: flex;
+     gap: 20px;
+ }
+ nav ul li a{
+     color: #fff;
+     text-decoration: none;
+     font-size: 25px;
+ }
+ nav ul li  a:hover{
+     color: black;
+ }
+ .cta{
+     background-color: blue;
+     color: white;
+     padding: 10px 20px;
+     text-decoration: none;
+     border-radius: 5;
+ }
+ .header1{
+     margin-top: 1px;
+     background-image: url(pathology.jpg);
+     height: 500px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     text-align: center;
+     font-size: 50px;
+ }
+ .header1 h1{
+     margin-left: 330px;
+     color: black;
+ }
+ .header1 p{
+     margin-left: 250px;
+     color: #fa1a1a;
+ }
+ section{
+     
+     background-color: #61c0ec8f;
+     padding: 2rem;
+     margin: 1rem auto;
+     max-width: 1200px;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+     border-radius: 8px;
+     text-align: center;
+     font-size: 35px;
+ }
+ .section2{
+     background-color: rgba(127, 255, 212, 0.445);
+ }
+ .section2 h3{
+     color: blue;
+     margin-top: 5px;
+ }
+ .section2 p{
+     font-size: 25px;
+ }
+ footer.footer{
+     background-color:black;
+     color: #fff;
+     padding: 40px 0;
+     text-align:left;
+ }
+ .footer-container{
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     flex-wrap: wrap;
+     padding: 0 50px;
+ }
+ .footer-column{
+     flex: 1;
+     margin: 15px;
+     min-width: 150px;
+ 
+ }
+ .footer-column h4{
+     margin-bottom: 10px;
+     font-size: 16px;
+     color:#fff;
+ 
+ }
+ .footer-column ul{
+     list-style: none;
+ }
+ .footer-column ul li{
+     margin-bottom: 8px;
+ }
+ .footer column ul li a{
+     color:#fff;
+     text-decoration: none;
+     font-size: 14px;
+ 
+ }
+ .footer-column ul li a:hover{
+     color:aqua;
+ }
+ .footer-social-icons{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 20px;
+ 
+ }
+ .footer-social-icons a{
+     color:aqua;
+     margin-right: 15px;
+     font-size: 18px;
+     text-decoration: none;
+ }
+ .footer-social-icons a:hover{
+     color:rgb(139, 230, 225);
+ }
+ .footer-bottom{
+     text-align: center;
+     margin-top: 20px;
+     font-size: 14px;
+     border-top: 1px solid #555;
+     padding-top: 15px;
+ }

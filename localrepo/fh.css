@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*--header styling*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a i{
+    margin-right: 8px;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: black;
+}
+.cta{
+    background-color: #fff;
+    color: #007bff;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 5;
+}
+.big-box-section{
+    background-color: #fefefe;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top:65px;
+    padding-bottom: 60px;
+}
+.boxes-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.box{
+    border: 2px solid black;
+    border-radius: 50px;
+    height: 250px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin: 25px;
+    margin-top: 40px;
+}
+.box-img{
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    margin-left: 10px;
+}
+.box-content{
+    margin-left: 25px;
+    margin-right: 10px;
+}
+h1{
+    text-align: center;
+}
+.intro{
+    background-image: url('mhospital.jpg');
+   /* filter: blur(1px);*/
+    height: 510px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+ .intro p{
+    z-index: 1;
+    font-size: larger;
+color: #fff;
+margin-top: 10px;
+}
+.intro li{
+    color: whitesmoke;
+}
+.type-section{
+    padding: 20px auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 12px;
+    background-color:rgba(245, 222, 179, 0.329);
+    font-size: larger;
+    max-width: fit-content;
+}
+.type-section li{
+    color: rgb(96, 14, 179);
+}
+.type-section h2{
+    color: rgb(134, 7, 7);
+}
+section{
+    
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: rgba(255, 255, 255, 0.736);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+section h2{
+    text-align: center;
+}
+footer.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+    text-align: left;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0 50px;
+}
+.footer-column{
+    flex: 1;
+    margin: 15px;
+    min-width: 150px;
+
+}
+.footer-column h4{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+.footer-column ul{
+    list-style: none;
+}
+.footer-column ul li{
+    margin-bottom: 8px;
+}
+.footer-column ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer-column ul li a:hover{
+    color: aqua;
+}
+.footer-social-icons{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+.footer-social-icons a{
+    color: rgb(115, 225, 225);
+    margin-right: 15px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.footer-social-icons a:hover{
+    color: rgb(139, 230, 230);
+}
+.footer-bottom{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid #555;
+    padding-top: 15px;
+}
+.box0-img{
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    margin-left: 400px;
+}
+.link{
+    text-align: center;
+    background-color: aqua;
+height: 50px;
+font-size: larger;
+}

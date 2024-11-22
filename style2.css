@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url('https://wallpaperaccess.com/full/185899.jpg') no-repeat center center/cover;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background-color: #0f9d58;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+header p {
+    font-size: 1.2rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: skyblue;
+    color: #fff;
+}
+.logo img {
+    width: 50px;
+    height: auto;
+    border-radius: 30%;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a i {
+    margin-right: 8px;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    color: black;
+}
+.cta {
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.service {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    margin: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+.service:hover {
+    transform: scale(1.05);
+}
+.service h2 {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    color: #0f9d58;
+}
+.service p {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 0.5rem;
+}
+service i {
+    font-size: 6rem, !important;
+    color: #0f9d58;
+    margin-bottom: 1rem;
+}
+footer.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+    text-align: left;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0 50px;
+}
+.footer-column {
+    flex: 1;
+    margin: 15px;
+    min-width: 150px;
+}
+.footer-column h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+.footer-column ul {
+    list-style: none;
+}
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer-column ul li a:hover {
+    color: #007bff;
+}
+.footer-social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer-social-icons a {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.footer-social-icons a:hover {
+    color: #007bff;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid #555;
+    padding-top: 15px;
+}

@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40;
+    background-color: blue;
+    color: white;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a i{
+    margin-right: 8px;
+    font-size: 18px;
+}
+nav ul li  a:hover{
+    color: black;
+}
+.cta{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5;
+}
+section{
+    color: black;
+    position: relative;
+    min-height: 100px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: centre;
+    align-items: centre;
+    flex-direction: column;
+    font-size: 20px;
+}
+.contact h1{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+nav ul li  a:hover{
+    color: black;
+}
+.cta{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5;
+}
+section{
+    color: black;
+    position: relative;
+    min-height: 100px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: centre;
+    align-items: centre;
+    flex-direction: column;
+    font-size: 20px;
+}
+.contact h1{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+nav ul li  a:hover{
+    color: black;
+}
+.cta{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5;
+}
+
+.intro{
+
+    background-image: url('scenery.jpg');
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.intro h1{
+    color:rgb(2, 2, 14);
+    text-align: center;
+    font-size: 90px;
+    padding: 150px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 40;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+}
+.inputbox{
+    width: 300px;
+    font-weight: 50px;
+    color:black;
+    font-size: 20px;
+    text-align: center;
+}
+.inputbox textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.inputbox input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.inputbox1{
+    font-size: 60px;
+    height: 50px;
+    margin-left: 220px;
+}
+.inputbox1 input {
+    width: 100%;
+    font-size: 20px;
+}
+.full-address{
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: auto;
+    padding: 25px;
+    background-color: rgb(59, 173, 226);
+}
+.address{
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right: auto;
+    padding: 30px;
+    background-color: rgb(131, 131, 192);
+}
+.address h1{
+    font-size: 70px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+footer.footer{
+    background-color:black;
+    color: #fff;
+    padding: 40px 0;
+    text-align:left;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0 50px;
+}
+.footer-column{
+    flex: 1;
+    margin: 15px;
+    min-width: 150px;
+
+}
+.footer-column h4{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color:#e40c0c;
+
+}
+.footer-column ul{
+    list-style: none;
+}
+.footer-column ul li{
+    margin-bottom: 8px;
+}
+.footer column ul li a{
+    color:#7da4e2;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+.footer-column ul li a:hover{
+    color:rgb(2, 5, 5);
+}
+.footer-social-icons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.footer-social-icons a{
+    color:aqua;
+    margin-right: 15px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.footer-social-icons a:hover{
+    color:rgb(139, 230, 225);
+}
+.footer-bottom{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid #0e0b0b;
+    padding-top: 15px;
+}
