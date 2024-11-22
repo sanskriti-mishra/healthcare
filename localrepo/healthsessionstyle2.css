@@ -48,7 +48,7 @@ header nav ul li a{
     background-color: white;
     padding: 2rem;
     color: white;
-    background-image: url("hospital.jpg");
+    background-image: url("/images/hospital.jpg");
     background-size: cover;
 }
 #benifits h2{
@@ -71,10 +71,10 @@ benifits ul li{
     padding: 2rem;
     color: darkblue;
     font-size: larger;
-    background-image: url("hospital1.jpg");
+    background-image: url("/images/hospital1.jpg");
     background-size: cover;
 }
-}
+
 #guidance h2{
     color: #333;
 text-align: center;

@@ -44,7 +44,7 @@ text-decoration: none;
 border-radius: 5;
 }
 .intro{
-    background-image: url('ocean.jpg');
+    background-image: url('/images/ocean.jpg');
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;

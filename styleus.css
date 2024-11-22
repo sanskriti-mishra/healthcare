@@ -93,7 +93,7 @@ nav ul li  a:hover{
 
 .intro{
 
-    background-image: url('scenery.jpg');
+    background-image: url('/images/scenery.jpg');
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;

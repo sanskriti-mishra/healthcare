@@ -80,7 +80,7 @@ h1{
     text-align: center;
 }
 .intro{
-    background-image: url('mhospital.jpg');
+    background-image: url('/images/mhospital.jpg');
    /* filter: blur(1px);*/
     height: 510px;
     background-size: cover;
