@@ -18,7 +18,7 @@ header{
     text-align: center;
     height: 70px;
 }
-header nav ul{
+/*header nav ul{
     list-style: none;
 }
 header nav ul li{
@@ -29,6 +29,40 @@ header nav ul li a{
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
+}*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: skyblue;
+    color: #fff;
+}
+.logo img {
+    width: 50px;
+    height: auto;
+    border-radius: 30%;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a i {
+    margin-right: 8px;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    color: black;
 }
 #home.intro{
     padding: 2rem;
