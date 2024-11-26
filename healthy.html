@@ -5,6 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style type="text/css">
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: skyblue;
+            color: #fff;
+}
+.logo img {
+    width: 50px;
+    height: auto;
+    border-radius: 30%;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a i {
+    margin-right: 8px;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    color: black;
+}
+.cta {
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
         #box{
             height: 5600px;
             width: 1500px;
@@ -29,8 +70,7 @@
 
         }
         #box15{
-
-height: 700px;
+    height: 700px;
     width: 1500px;
     float: left;
     margin-top: 20px;
@@ -139,15 +179,36 @@ height: 2000px;
            font-size:  40px;
            color: white;
         }
-        
     </style>
 </head>
 <body>
-
-    
         <marquee behavior="scroll"  scroolamount="3" bgcolor="brown" height="100px" width="1500px"  direction="right" align="center" margin-left="200px" margin-right="200px">
             <h1 align="center">" Health is a relationship between you and your body "</h1>
         </marquee>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#"><img src="https://logodix.com/logo/2131026.png" alt="page logo"></a>
+                 HEAL--
+            </div>
+                <ul>
+                    <li>
+                        <a href="index.html"><i class="fas fa-home"></i>Home</a>
+                    </li>
+                    <li>
+                        <a href="services.html" class="btn"><i class="fas fa-concierge-bell"></i>Services</a>
+                    </li>
+                    <li>
+                        <a href="Patientportal.html"><i class="fas fa-users"></i>Patient Portal</a>
+                    </li>
+                    <li>
+                        <a href="aboutourteam.html"><i class="fas fa-info-circle"></i>About Us</a>
+                    </li>
+                    <li>
+                        <a href="us.html"><i class="fas fa-envelope"></i>Contact</a>
+                    </li>
+                </ul>
+            <a href="#" class="cta">Book an Appointment</a>
+            </nav>
         <div id="box">
     <div id="box1">
         <img src=" https://static.vecteezy.com/system/resources/previews/040/997/806/non_2x/ai-generated-asian-female-doctor-holding-fruits-and-vegetables-plate-proper-nutrition-and-healthy-eating-concept-photo.jpg " height="600px" width=" 800px">    
@@ -250,6 +311,5 @@ height: 2000px;
                 </div> 
              <button style="font-size: 20px; " id="box13"> registation now</button>
     </div>
-    
 </body>
 </html>

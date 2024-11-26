@@ -3,32 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
+header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+header p {
+    font-size: 1.2rem;
+}
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40;
-    background-color: blue;
-    color: white;
+    padding: 20px;
+    background-color: skyblue;
+    color: #fff;
 }
-.logo{
+.logo img {
+    width: 50px;
+    height: auto;
+    border-radius: 30%;
+}
+.logo {
     font-size: 24px;
     font-weight: bold;
+    display: flex;
 }
-nav ul{
+nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
-nav ul li a{
+nav ul li a {
     color: #fff;
     text-decoration: none;
 }
-nav ul li a i{
+nav ul li a i {
     margin-right: 8px;
     font-size: 18px;
 }
-nav ul li  a:hover{
+nav ul li a:hover {
     color: black;
 }
 .cta{
@@ -48,47 +67,6 @@ section{
     align-items: centre;
     flex-direction: column;
     font-size: 20px;
-}
-.contact h1{
-    text-align: center;
-    font-size: 30px;
-    color: blue;
-}
-nav ul li  a:hover{
-    color: black;
-}
-.cta{
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5;
-}
-section{
-    color: black;
-    position: relative;
-    min-height: 100px;
-    padding: 50px 100px;
-    display: flex;
-    justify-content: centre;
-    align-items: centre;
-    flex-direction: column;
-    font-size: 20px;
-}
-.contact h1{
-    text-align: center;
-    font-size: 30px;
-    color: blue;
-}
-nav ul li  a:hover{
-    color: black;
-}
-.cta{
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5;
 }
 
 .intro{
@@ -103,15 +81,6 @@ nav ul li  a:hover{
     text-align: center;
     font-size: 90px;
     padding: 150px;
-}
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: left;
-    padding: 40;
-    background-color: blue;
-    color: white;
-    font-size: 30px;
 }
 .inputbox{
     width: 300px;
@@ -162,66 +131,62 @@ header{
     text-align: left;
     margin-bottom: 20px;
 }
-footer.footer{
-    background-color:black;
+footer.footer {
+    background-color: #000;
     color: #fff;
     padding: 40px 0;
-    text-align:left;
+    text-align: left;
 }
-.footer-container{
+.footer-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
     padding: 0 50px;
 }
-.footer-column{
+.footer-column {
     flex: 1;
     margin: 15px;
     min-width: 150px;
-
 }
-.footer-column h4{
+.footer-column h4 {
     margin-bottom: 10px;
     font-size: 16px;
-    color:#e40c0c;
-
+    color: #fff;
 }
-.footer-column ul{
+.footer-column ul {
     list-style: none;
 }
-.footer-column ul li{
+.footer-column ul li {
     margin-bottom: 8px;
 }
-.footer column ul li a{
-    color:#7da4e2;
+.footer-column ul li a {
+    color: #fff;
     text-decoration: none;
     font-size: 14px;
-
 }
-.footer-column ul li a:hover{
-    color:rgb(2, 5, 5);
+.footer-column ul li a:hover {
+    color: #007bff;
 }
-.footer-social-icons{
-    display:flex;
+.footer-social-icons {
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-
 }
-.footer-social-icons a{
-    color:aqua;
+.footer-social-icons a {
+    color: #fff;
     margin-right: 15px;
     font-size: 18px;
     text-decoration: none;
 }
-.footer-social-icons a:hover{
-    color:rgb(139, 230, 225);
+.footer-social-icons a:hover {
+    color: #007bff;
 }
-.footer-bottom{
+.footer-bottom {
     text-align: center;
     margin-top: 20px;
     font-size: 14px;
-    border-top: 1px solid #0e0b0b;
+    border-top: 1px solid #555;
     padding-top: 15px;
 }
